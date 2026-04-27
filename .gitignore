@@ -1,0 +1,25 @@
+# AWS Credentials - NEVER commit these
+.aws/
+credentials
+*.pem
+*.key
+
+# Environment files
+.env
+.env.*
+
+# Secret files
+secrets/
+*.secret
+
+# Reports (auto-generated)
+reports/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+
+# Docker
+*.log
